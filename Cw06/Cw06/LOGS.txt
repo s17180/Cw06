@@ -1,0 +1,215 @@
+Path: /api/students, Method: GET, Querry: .
+Body: 
+Path: /favicon.ico, Method: GET, Querry: .
+Body: 
+Path: /api/students, Method: GET, Querry: ?name=Kowalski.
+Body: {
+	"IndexNumber": "s12344",
+	"FirstName": "Andrzej",
+	"LastName": "Malewski",
+	"BirthDate": "30.03.1993",
+	"Studies": "IT"
+}
+Path: /api/students, Method: POST, Querry: ?name=Kowalski.
+Body: {
+	"IndexNumber": "s12344",
+	"FirstName": "Andrzej",
+	"LastName": "Malewski",
+	"BirthDate": "30.03.1993",
+	"Studies": "IT"
+}
+Path: /api/students, Method: POST, Querry: ?name=Kowalski.
+Body: {
+	"IndexNumber": "s12344"
+}
+Path: /api/students, Method: GET, Querry: .
+Body: 
+Path: /favicon.ico, Method: GET, Querry: .
+Body: 
+Path: /api/students, Method: POST, Querry: ?name=Kowalski.
+Body: {
+	"IndexNumber": "s12344"
+}
+Path: /api/students, Method: POST, Querry: ?name=Nowak.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students, Method: GET, Querry: .
+Body: 
+Path: /favicon.ico, Method: GET, Querry: .
+Body: 
+Path: /api/students/enrollo, Method: POST, Querry: .
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students/enrollo, Method: POST, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students/enrollo, Method: POST, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students/enrollo, Method: POST, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students/enrollo, Method: POST, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students/enrollo, Method: POST, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students/enrollo, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students/enrollo, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/enrollo, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/enrollo, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students, Method: GET, Querry: ?Index=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students, Method: GET, Querry: ?Index=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students, Method: GET, Querry: ?Index=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students, Method: GET, Querry: .
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /api/students, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /enrollo, Method: GET, Querry: .
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /enrollo, Method: GET, Querry: .
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /enrollo, Method: GET, Querry: .
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /enrollo, Method: GET, Querry: .
+Body: {
+	"IndexNumber": "s17180"
+}
+Path: /enrollo, Method: GET, Querry: .
+Body: {
+}
+Path: /enrollo, Method: POST, Querry: .
+Body: {
+}
+Path: /enrollo, Method: POST, Querry: .
+Body: {
+}
+Path: /api/students, Method: GET, Querry: .
+Body: 
+Path: /favicon.ico, Method: GET, Querry: .
+Body: 
+Path: /enrollo, Method: POST, Querry: ?IndexNumber=s17180.
+Body: {
+}
+Path: /students, Method: POST, Querry: ?IndexNumber=s17180.
+Body: {
+}
+Path: /students, Method: POST, Querry: ?IndexNumber=s17180.
+Body: {
+}
+Path: /students, Method: POST, Querry: ?IndexNumber=s17180.
+Body: {
+}
+Path: /students, Method: POST, Querry: ?IndexNumber=s17180.
+Body: {
+}
+Path: /api/students, Method: GET, Querry: .
+Body: 
+Path: /favicon.ico, Method: GET, Querry: .
+Body: 
+Path: /students, Method: POST, Querry: ?IndexNumber=s17180.
+Body: {
+}
+Path: /students, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+}
+Path: /students, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+}
+Path: /students, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+}
+Path: /api/students, Method: GET, Querry: .
+Body: 
+Path: /favicon.ico, Method: GET, Querry: .
+Body: 
+Path: /api/students, Method: GET, Querry: ?IndexNumber=s17180.
+Body: {
+}
+Path: /api/students, Method: GET, Querry: ?IndexNumber=17180.
+Body: {
+}
+Path: /api/students, Method: POST, Querry: ?IndexNumber=17180.
+Body: {
+}
+Path: /api/students, Method: GET, Querry: .
+Body: {
+}
+Path: /api/students, Method: GET, Querry: .
+Body: {
+}
+Path: /api/students, Method: POST, Querry: .
+Body: {
+	"LO": "s17180"
+}
