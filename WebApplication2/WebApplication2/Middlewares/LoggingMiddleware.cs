@@ -1,18 +1,19 @@
-﻿using Cwiczenia_03.DAL;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebApplication2.Services;
 
-namespace Cwiczenia_03.Middlewares
+namespace WebApplication2.Middlewares
 {
     public class LoggingMiddleware
     {
         private readonly RequestDelegate _next;
-
+        
         public LoggingMiddleware(RequestDelegate next)
         {
             _next = next;
@@ -20,6 +21,8 @@ namespace Cwiczenia_03.Middlewares
 
         public async Task InvokeAsync(HttpContext httpContext, IDbService service)
         {
+            httpContext.Request.EnableBuffering();
+
             if (httpContext.Request != null)
             {
                 string sciezka = httpContext.Request.Path; //"weatherforecast/cos"
@@ -38,5 +41,7 @@ namespace Cwiczenia_03.Middlewares
 
             await _next(httpContext);
         }
+
+
     }
 }
